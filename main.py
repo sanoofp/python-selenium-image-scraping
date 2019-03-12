@@ -47,5 +47,5 @@ for src in returnImgs:
   download_link = os.path.dirname(os.path.realpath(__file__))+'/downloads/'+str(random.randint(1, 1000))+imgExt
 
   print("Downlodaing to :::: "+download_link)
-  # Downloading to ./downloads folder
+  # Download to ./downloads folder
   urllib.request.urlretrieve(imgsrc, download_link)
